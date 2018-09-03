@@ -1,5 +1,5 @@
 server:
-  port: ${port:8080}
+  port: ${port:8090}
 
 spring:
   application:
@@ -10,7 +10,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://root:root@127.0.0.1:8080/eureka/
+      defaultZone: http://root:root@127.0.0.1:8090/eureka/
 
 security:
   basic:
